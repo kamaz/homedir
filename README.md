@@ -2,6 +2,7 @@
 
 ```bash
 pip3 install neovim
+pip3 install --user neovim
 ```
 
 # Useful links
