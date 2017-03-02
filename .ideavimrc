@@ -1,0 +1,12 @@
+source ~/.vimrc
+set clipboard+=unnamed
+set surround
+set gdefault
+set hlsearch
+set ignorecase
+set incsearch
+set nrformats
+set relativenumber
+
+:map ,r :action Rerun<CR>
+:map ,e :action RunClass<CR>
