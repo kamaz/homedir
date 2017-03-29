@@ -10,3 +10,5 @@ set relativenumber
 
 :map ,r :action Rerun<CR>
 :map ,e :action RunClass<CR>
+:map ,c :action RenameElement<CR>
+
