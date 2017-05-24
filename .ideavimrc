@@ -11,4 +11,7 @@ set relativenumber
 :map ,r :action Rerun<CR>
 :map ,e :action RunClass<CR>
 :map ,c :action RenameElement<CR>
-
+:map ,k :action CloseContent<CR>
+:map \f :action ReformatCode<CR>
+:map \c :action CloseAllEditorsButActive<CR>
+:map \a :action CloseAllEditors<CR>
