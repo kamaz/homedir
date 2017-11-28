@@ -7,6 +7,7 @@ set ignorecase
 set incsearch
 set nrformats
 set relativenumber
+set number
 
 :map ,r :action Rerun<CR>
 :map ,e :action RunClass<CR>
