@@ -1,10 +1,13 @@
 {
+  "workbench.iconTheme": "vscode-icons",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.jediEnabled": false,
   "go.useLanguageServer": true,
   "window.zoomLevel": 1,
   "vim.useSystemClipboard": true,
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/local/Cellar/neovim/0.4.3/bin/nvim",
   "vim.leader": ",",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
