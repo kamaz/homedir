@@ -27,12 +27,10 @@
       "commands": [":tabo"]
     },
     {
-      //https://code.visualstudio.com/docs/getstarted/keybindings#_default-keybindings
       "before": ["<leader>", "e"],
       "commands": ["workbench.action.quickOpen"]
     },
     {
-      //https://code.visualstudio.com/docs/getstarted/keybindings#_default-keybindings
       "before": ["<leader>", "n"],
       "commands": ["editor.action.marker.next"]
     }
