@@ -7,4 +7,6 @@ cp .ideavimrc $HOME
 cp .gitconfig $HOME
 cp .vimrc $HOME
 cp .tmux.conf $HOME
+cp .zshrc $HOME
 
+brew bundle

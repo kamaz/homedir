@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git jenv kubectl helm gradle ssh-agent)
 
-zstyle :omz:plugins:ssh-agent identities id_rsa github_id_rsa debenhams_id_rsa
+zstyle :omz:plugins:ssh-agent identities id_rsa
 
 source $ZSH/oh-my-zsh.sh
 
