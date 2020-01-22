@@ -1,70 +1,90 @@
 {
-  "workbench.iconTheme": "vscode-icons",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "python.jediEnabled": false,
-  "go.useLanguageServer": true,
-  "window.zoomLevel": 1,
-  "vim.useSystemClipboard": true,
-  "vim.enableNeovim": true,
-  "vim.neovimPath": "/usr/local/Cellar/neovim/0.4.3/bin/nvim",
-  "vim.leader": ",",
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "x"],
-      "commands": [":tabn"]
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "go.useLanguageServer": true,
+    "window.zoomLevel": 1,
+    "vim.useSystemClipboard": true,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/Cellar/neovim/0.4.3/bin/nvim",
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "x"],
+        "commands": [":tabn"]
+      },
+      {
+        "before": ["<leader>", "z"],
+        "commands": [":tabn"]
+      },
+      {
+        "before": ["<leader>", "c"],
+        "commands": [":tabc"]
+      },
+      {
+        "before": ["<leader>", "o"],
+        "commands": [":tabo"]
+      },
+      {
+        "before": ["<leader>", "e"],
+        "commands": ["workbench.action.quickOpen"]
+      },
+      {
+        "before": ["<leader>", "n"],
+        "commands": ["editor.action.marker.next"]
+      }
+    ],
+    "editor.lineNumbers": "relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["<leader>", "z"],
-      "commands": [":tabn"]
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["<leader>", "c"],
-      "commands": [":tabc"]
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "editor.formatOnSave": true,
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "onFocusChange",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["<leader>", "o"],
-      "commands": [":tabo"]
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.action.quickOpen"]
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["<leader>", "n"],
-      "commands": ["editor.action.marker.next"]
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.renderWhitespace": "none",
+    "yaml.format.singleQuote": true,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.userWords": [
+      "Commercetools"
+    ],
+    "terraform.indexing": {
+      "enabled": false,
+      "liveIndexing": false,
+      "delay": 500,
+      "exclude": [
+        ".terraform/**/*",
+        "**/.terraform/**/*"
+      ]
+    },
+    "terraform.languageServer": {
+      "enabled": false,
+      "args": []
     }
-  ],
-  "editor.lineNumbers": "relative",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "editor.formatOnSave": true,
-  "workbench.editor.showTabs": true,
-  "workbench.editor.enablePreview": false,
-  "files.autoSave": "onFocusChange",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "yaml.format.enable": false,
-  "editor.renderWhitespace": "none"
-}
+  }
+  
