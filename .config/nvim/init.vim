@@ -48,6 +48,8 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'zchee/deoplete-clang'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 
 
 let g:make = 'gmake'
